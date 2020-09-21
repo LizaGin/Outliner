@@ -1,0 +1,66 @@
+.Node {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transition: .55s opacity, .55s visibility;
+}
+
+.Node.hide {
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transition: .55s opacity, .55s visibility;
+  width: 0;
+  height: 0;
+}
+
+.node,
+.node.complited {
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+
+  border: none;
+  outline: none;
+  min-width: 150px;
+  width: auto;
+}
+
+.node.complited {
+  text-decoration: line-through;
+}
+
+.node.search,
+.node.complited.search {
+  border: 1px solid #4eb5f1;
+}
+
+.childrens {
+  display: block;
+}
+
+.childrens_fold {
+  display: none;
+}
+
+.icon {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.icon.fold {
+  margin-left: -25px;
+}
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+}
+
+.flex-container {
+  display: flex;
+}

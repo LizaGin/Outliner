@@ -1,0 +1,91 @@
+.style-menu {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    width: 180px;
+    position: absolute;
+    z-index: 10;
+    left: -115px;
+    padding: 10px;
+    top: 0;
+}
+
+.style-menu_header {
+    background-color: #3960ad;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 200px;
+    margin: -10px
+}
+
+.style-menu_icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.style-list {
+    margin-top: 20px;
+}
+
+.style-group {
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding: 0;
+    align-items: center;
+}
+
+.text {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.text_size_xs {
+    font-size: 12px;
+}
+.text_size_s {
+    font-size: 14px;
+}
+.text_size_m {
+    font-size: 16px;
+}
+.text_size_l {
+    font-size: 18px;
+}
+.text_size_xl {
+    font-size: 20px;
+}
+.text_style_italic {
+    font-style: italic;
+}
+.text_style_italic {
+    font-weight: bold;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.circle_color_black {
+    background-color: black;
+}
+.circle_color_red {
+    background-color: #e08458;
+}
+.circle_color_purple {
+    background-color: purple;
+}
+.circle_color_green {
+    background-color: #2d6166;
+}
+.circle_color_blue {
+    background-color: #4eb5f1;
+}
